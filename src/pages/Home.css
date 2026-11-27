@@ -1,0 +1,47 @@
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    gap: 40px;
+    background: white;
+    min-height: 450px;
+}
+
+.home-content {
+    width: 45%;
+}
+
+.home-content h1 {
+    font-size: 42px;
+    color: #202b46;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.home-content button {
+    background: #202b46;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-image {
+    width: 45%;
+}
+
+.home-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}

@@ -1,0 +1,42 @@
+
+.products-container {
+    padding: 40px;
+    text-align: center;
+}
+
+.products-container h1 {
+    color: #202b46;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: inline-block;
+    width: 230px;
+    margin: 15px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #ddd;
+    vertical-align: top;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.card p {
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    color: #202b46;
+}
